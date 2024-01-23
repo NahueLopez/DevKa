@@ -16,10 +16,10 @@ function App() {
       <Header />
       
       <Routes>
-        <Route index element= {<Index/>} />
-        <Route path="/servicios" element= {<Servicios/>} />
-        <Route path="/sobre-nosotros" element= {<SobreNosotros/>} />
-        <Route path="/contacto" element= {<Contacto/>} />
+        <Route path="/DevKa/" element= {<Index/>} />
+        <Route path="/DevKa/servicios" element= {<Servicios/>} />
+        <Route path="/DevKa/sobre-nosotros" element= {<SobreNosotros/>} />
+        <Route path="/DevKa/contacto" element= {<Contacto/>} />
       </Routes>
 
       <Footer />

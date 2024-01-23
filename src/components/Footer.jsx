@@ -20,32 +20,32 @@ function Footer() {
                 <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0">
                     <li>
                         <Link
-                            to="/"
-                            className={`footer me-4 md:me-6 ${location.pathname === "/" ? "active" : ""}`}
+                            to="/DevKa/"
+                            className={`footer me-4 md:me-6 ${location.pathname === "/DevKa/" ? "active" : ""}`}
                         >
                             Inicio
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="/servicios"
-                            className={`footer me-4 md:me-6 ${location.pathname === "/servicios" ? "active" : ""}`}
+                            to="/DevKa/servicios"
+                            className={`footer me-4 md:me-6 ${location.pathname === "/DevKa/servicios" ? "active" : ""}`}
                         >
                             Servicio
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="/sobre-nosotros"
-                            className={`footer me-4 md:me-6 ${location.pathname === "/sobre-nosotros" ? "active" : ""}`}
+                            to="/DevKa/sobre-nosotros"
+                            className={`footer me-4 md:me-6 ${location.pathname === "/DevKa/sobre-nosotros" ? "active" : ""}`}
                         >
                             Sobre Nosotros
                         </Link>
                     </li>
                     <li>
                         <Link
-                            to="/contacto"
-                            className={`footer ${location.pathname === "/contacto" ? "active" : ""}`}
+                            to="/DevKa/contacto"
+                            className={`footer ${location.pathname === "/DevKa/contacto" ? "active" : ""}`}
                         >
                             Contacto
                         </Link>

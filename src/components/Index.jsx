@@ -35,7 +35,7 @@ function Index() {
                 <p className="md:text-2xl text-xl font-bold text-gray-500">
                    Conéctate con nosotros y recibirás el assesoramient más acertado. Estamos aquí para mejorar tu experiencia 
                 </p>
-                <Link to="/contacto"
+                <Link to="/DevKa/contacto"
                       className="bg-[#52bed7] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:bg-[#377d8c] hover:text-white hover:shadow-xl"
                 >
                     Contacto

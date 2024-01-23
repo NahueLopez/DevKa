@@ -47,27 +47,27 @@ function Header() {
         {/* Menú de navegacion Pantalla Grande */}
       <nav className="hidden md:flex space-x-4">
         <Link 
-            className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
-            to="/"
+            className={`nav-link ${location.pathname === "/DevKa/" ? "active" : ""}`}
+            to="/DevKa/"
         >
 
             Inicio
         </Link>
         <Link
-            className={`nav-link ${location.pathname === "/servicios" ? "active" : ""}`}
-            to="/servicios"
+            className={`nav-link ${location.pathname === "/DevKa/servicios" ? "active" : ""}`}
+            to="/DevKa/servicios"
         >
             Servicios
         </Link>
         <Link
-            className={`nav-link ${location.pathname === "/sobre-nosotros" ? "active" : ""}`}
-            to="/sobre-nosotros"
+            className={`nav-link ${location.pathname === "/DevKa/sobre-nosotros" ? "active" : ""}`}
+            to="/DevKa/sobre-nosotros"
         >
             Sobre Nosotros
         </Link>
         <Link
-            className={`nav-link ${location.pathname === "/contacto" ? "active" : ""}`}
-            to="/contacto"
+            className={`nav-link ${location.pathname === "/DevKa/contacto" ? "active" : ""}`}
+            to="/DevKa/contacto"
         >
             Concatco
         </Link>
